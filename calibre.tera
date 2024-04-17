@@ -1,0 +1,48 @@
+---
+whiskers:
+  version: 2.0.2
+  matrix:
+    - flavor: ["frappe", "macchiato", "mocha"]
+    - accent
+  filename: "themes/{{flavor.identifier}}/{{accent}}.calibre-palette"
+---
+{%- set modes = ["light", "dark"] -%}
+{
+{%- for mode in modes %}
+    {%- if mode == "light" -%}
+    {%- set palette = flavors["latte"].colors -%}
+    {%- else -%}
+    {%- set palette = flavor.colors -%}
+    {%- endif %}
+    "{{mode}}": {
+        "palette": {
+            "AlternateBase": "#{{ palette.mantle.hex }}",
+            "Base": "#{{ palette.mantle.hex }}",
+            "BrightText": "#{{ palette.text.hex }}",
+            "BrightText-disabled": "#{{ palette.text.hex }}",
+            "Button": "#{{ palette.surface0.hex }}",
+            "ButtonText": "#{{ palette.text.hex }}",
+            "ButtonText-disabled": "#{{ palette.surface2.hex }}",
+            "Highlight": "#{{ palette[accent].hex }}",
+            "HighlightedText": "#{{ palette.mantle.hex }}",
+            "HighlightedText-disabled": "#{{ palette.mantle.hex }}",
+            "Link": "#{{ palette.rosewater.hex }}",
+            "LinkVisited": "#{{ palette.blue.hex }}",
+            "PlaceholderText": "#{{ palette.text.hex }}",
+            "PlaceholderText-disabled": "#{{ palette.text.hex }}",
+            "Text": "#{{ palette.text.hex }}",
+            "Text-disabled": "#{{ palette.surface2.hex }}",
+            "ToolTipBase": "#{{ palette.crust.hex }}",
+            "ToolTipText": "#{{ palette.text.hex }}",
+            "ToolTipText-disabled": "#{{ palette.text.hex }}",
+            "Window": "#{{ palette.base.hex }}",
+            "WindowText": "#{{ palette.text.hex }}",
+            "WindowText-disabled": "#{{ palette.surface2.hex }}"
+        },
+        "use_custom": true
+    }
+    {%- if not loop.last -%}
+    ,
+    {%- endif -%}
+{% endfor %}
+}
