@@ -36,14 +36,13 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open Calibre's preferences
-3. Navigate to `interface -> look & feel`
-4. Select `adjust colors` (top right)
-5. Select `import` (bottom)
-6. Select the flavour you want and apply!
+1. Download the flavor and accent of your choice from the `themes/` directory.
+2. Open Calibre's preferences and navigate to **Interface** > **Look & feel**.
+4. Click the **Adjust colors** button.
+5. Click the **Import** button, select your theme file, and apply!
 
-Note: The latte theme is included in all themes as the light mode variant, select light or dark from the top right dropdown.
+> [!NOTE]
+> The latte theme is included in all themes as the light mode variant. Select light/dark/system from the dropdown in the top right at **Interface** > **Look & feel** > **Adjust colors**.
 
 ## 💝 Thanks to
 
