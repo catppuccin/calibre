@@ -48,7 +48,7 @@
 
 ### Icons
 
-1. Download the icon set of your choice from the `icons/dist/` directory.
+1. Clone the repository.
 2. Run `make install FLAVOR=<flavor>` to install the icon set.
 3. Restart Calibre!
 
