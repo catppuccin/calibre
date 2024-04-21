@@ -36,6 +36,8 @@
 
 ## Usage
 
+### Themes
+
 1. Download the flavor and accent of your choice from the `themes/` directory.
 2. Open Calibre's preferences and navigate to **Interface** > **Look & feel**.
 4. Click the **Adjust colors** button.
@@ -43,6 +45,12 @@
 
 > [!NOTE]
 > The latte theme is included in all themes as the light mode variant. Select light/dark/system from the dropdown in the top right at **Interface** > **Look & feel** > **Adjust colors**.
+
+### Icons
+
+1. Download the icon set of your choice from the `icons/dist/` directory.
+2. Run `make install FLAVOR=<flavor>` to install the icon set.
+3. Restart Calibre!
 
 ## 💝 Thanks to
 

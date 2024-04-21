@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   version="1"
+   id="svg1"
+   sodipodi:docname="identifiers.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.3007813"
+     inkscape:cx="71.614895"
+     inkscape:cy="107.30608"
+     inkscape:window-width="2074"
+     inkscape:window-height="1316"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     style="fill:#cdd6f4;stroke-width:8"
+     width="128"
+     height="128"
+     x="-128"
+     y="-128"
+     rx="6.4000006"
+     ry="6.4000006"
+     transform="matrix(0,-1,-1,0,0,0)"
+     id="rect1" />
+  <path
+     style="fill:#1e1e2e;stroke-width:8"
+     d="M 7.9999958,7.9999916 V 47.999993 H 47.999997 V 7.9999916 Z m 72.0000022,0 V 47.999993 H 120.00001 V 7.9999916 Z M 15.999996,15.999992 h 24 v 24 h -24 z m 40.000001,0 v 16.000001 h 8 v 7.999999 h 8 v -7.999999 -8.000001 h -8 v -8 z m 8,24 h -8 v 8.000001 8 h 8 v -8 z m -8,16.000001 h -8 v 8 h -8.000001 v 8 h 16.000001 z m 0,16 v 8.000001 h 8 v -8.000001 z m 8,0 h 24 v -16 h -7.999999 v 8 H 63.999997 Z m 24,0 v 8.000001 h 8.000001 v 7.999999 H 104 v -16 z m 0,8.000001 h -7.999999 v 7.999999 h 7.999999 z m -7.999999,7.999999 H 63.999997 v 8.000001 h 16.000001 z m 0,8.000001 V 104 h 7.999999 V 95.999994 Z M 87.999997,104 v 8 h 8.000001 v -8 z m 8.000001,0 H 112 V 95.999994 H 95.999998 Z M 112,104 v 16.00001 h 8.00001 V 112 104 Z m -16.000002,8 v 8.00001 H 104 V 112 Z m -8.000001,0 h -24 -8 v 8.00001 h 32 z m -24,-16.000006 h -8 V 104 h 8 z M 39.999996,63.999993 v -8 h -16 v 8 z m -16,0 h -8 v -8 H 7.9999958 v 16 H 23.999996 Z M 87.999997,15.999992 H 112 v 24 H 87.999997 Z m -64.000001,8 v 8.000001 h 8.000001 v -8.000001 z m 72.000002,0 v 8.000001 H 104 v -8.000001 z m 0,32.000001 v 8 H 112 v 8 h 8.00001 v -8 -8 H 112 Z M 7.9999958,79.999994 V 120.00001 H 40.578122 47.999997 V 79.999994 Z m 104.0000042,0 v 7.999999 h 8.00001 v -7.999999 z m -96.000004,7.999999 h 24 V 112 h -24 z m 8,8.000001 V 104 h 8.000001 v -8.000006 z"
+     id="path1" />
+</svg>
