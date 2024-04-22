@@ -48,9 +48,19 @@
 
 ### Icons
 
-1. Clone the repository.
-2. Run `make install FLAVOR=<flavor>` to install the icon set.
-3. Restart Calibre!
+1. Make sure you have the following dependencies installed:
+- git
+- make
+2. Clone this repository and go to downloaded directory:
+    ```
+    git clone https://github.com/42willow/calibre.git
+    cd calibre
+    ```
+3. Run `make install FLAVOR=<flavor>` to install the icon set.
+5. Restart Calibre!
+
+> [!WARNING]
+> Linux only (instructions for macOS and Windows coming soon)
 
 ## 💝 Thanks to
 
