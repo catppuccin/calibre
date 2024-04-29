@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor: ["frappe", "macchiato", "mocha"]
     - accent
-  filename: "themes/{{flavor.identifier}}/{{accent}}.calibre-palette"
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.calibre-palette"
 ---
 {%- set modes = ["light", "dark"] -%}
 {
