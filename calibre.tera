@@ -16,8 +16,8 @@ whiskers:
     {%- endif %}
     "{{mode}}": {
         "palette": {
-            "AlternateBase": "#{{ palette.mantle.hex }}",
-            "Base": "#{{ palette.mantle.hex }}",
+            "AlternateBase": "#{{ palette.base.hex }}",
+            "Base": "#{{ palette.base.hex }}",
             "BrightText": "#{{ palette.text.hex }}",
             "BrightText-disabled": "#{{ palette.text.hex }}",
             "Button": "#{{ palette.surface0.hex }}",
@@ -35,7 +35,7 @@ whiskers:
             "ToolTipBase": "#{{ palette.crust.hex }}",
             "ToolTipText": "#{{ palette.text.hex }}",
             "ToolTipText-disabled": "#{{ palette.text.hex }}",
-            "Window": "#{{ palette.base.hex }}",
+            "Window": "#{{ palette.mantle.hex }}",
             "WindowText": "#{{ palette.text.hex }}",
             "WindowText-disabled": "#{{ palette.surface2.hex }}"
         },

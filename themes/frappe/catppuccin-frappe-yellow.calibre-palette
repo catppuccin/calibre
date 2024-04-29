@@ -1,8 +1,8 @@
 {
     "light": {
         "palette": {
-            "AlternateBase": "#e6e9ef",
-            "Base": "#e6e9ef",
+            "AlternateBase": "#eff1f5",
+            "Base": "#eff1f5",
             "BrightText": "#4c4f69",
             "BrightText-disabled": "#4c4f69",
             "Button": "#ccd0da",
@@ -20,7 +20,7 @@
             "ToolTipBase": "#dce0e8",
             "ToolTipText": "#4c4f69",
             "ToolTipText-disabled": "#4c4f69",
-            "Window": "#eff1f5",
+            "Window": "#e6e9ef",
             "WindowText": "#4c4f69",
             "WindowText-disabled": "#acb0be"
         },
@@ -28,8 +28,8 @@
     },
     "dark": {
         "palette": {
-            "AlternateBase": "#292c3c",
-            "Base": "#292c3c",
+            "AlternateBase": "#303446",
+            "Base": "#303446",
             "BrightText": "#c6d0f5",
             "BrightText-disabled": "#c6d0f5",
             "Button": "#414559",
@@ -47,7 +47,7 @@
             "ToolTipBase": "#232634",
             "ToolTipText": "#c6d0f5",
             "ToolTipText-disabled": "#c6d0f5",
-            "Window": "#303446",
+            "Window": "#292c3c",
             "WindowText": "#c6d0f5",
             "WindowText-disabled": "#626880"
         },
