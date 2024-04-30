@@ -14,7 +14,8 @@ whiskers:
     {%- else -%}
     {%- set palette = flavor.colors -%}
     {%- endif -%}
-    {%- set accentfaded = palette[accent] | mix(color=palette.crust, amount=0.4) %}
+    {%- set accentforlight = palette[accent] | mix(color=palette.crust, amount=0.4) %}
+    {%- set accentfordark = palette[accent] %}
     "{{mode}}": {
         "palette": {
             "AlternateBase": "#{{ palette.base.hex }}",
@@ -24,7 +25,7 @@ whiskers:
             "Button": "#{{ palette.base.hex }}",
             "ButtonText": "#{{ palette.text.hex }}",
             "ButtonText-disabled": "#{{ palette.surface2.hex }}",
-            "Highlight": "#{ accentfaded.hex }",
+            "Highlight": "#{% if mode == "light" %}{{ accentforlight.hex }}{% else %}{{ accentfordark.hex }}{% endif %}",
             {% if mode == "light" -%}
             "HighlightedText": "#{{ palette.text.hex }}",
             {%- else -%}
