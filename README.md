@@ -51,16 +51,18 @@
 1. Make sure you have the following dependencies installed:
 - git
 - make
+- rsvg-convert
 2. Clone this repository and go to downloaded directory:
     ```
     git clone https://github.com/42willow/calibre.git
     cd calibre
     ```
-3. Run `make install FLAVOR=<flavor>` to install the icon set.
+3. Run `make convert` to generate the icon set.
+4. Run `make install FLAVOR=<flavor>` to install the icon set.
 5. Restart Calibre!
 
-> [!WARNING]
-> Linux only (instructions for macOS and Windows coming soon)
+> [!NOTE]
+> Installation method for Windows coming soon, along with a method not requiring `rsvg-convert`.
 
 ## 💝 Thanks to
 
