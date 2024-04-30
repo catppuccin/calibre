@@ -13,18 +13,23 @@ whiskers:
     {%- set palette = flavors["latte"].colors -%}
     {%- else -%}
     {%- set palette = flavor.colors -%}
-    {%- endif %}
+    {%- endif -%}
+    {%- set accentfaded = palette[accent] | mix(color=palette.crust, amount=0.4) %}
     "{{mode}}": {
         "palette": {
             "AlternateBase": "#{{ palette.base.hex }}",
-            "Base": "#{{ palette.base.hex }}",
+            "Base": "#{{ palette.mantle.hex }}",
             "BrightText": "#{{ palette.text.hex }}",
             "BrightText-disabled": "#{{ palette.text.hex }}",
-            "Button": "#{{ palette.surface0.hex }}",
+            "Button": "#{{ palette.base.hex }}",
             "ButtonText": "#{{ palette.text.hex }}",
             "ButtonText-disabled": "#{{ palette.surface2.hex }}",
-            "Highlight": "#{{ palette[accent].hex }}",
-            "HighlightedText": "#{{ palette.mantle.hex }}",
+            "Highlight": "#{ accentfaded.hex }",
+            {% if mode == "light" -%}
+            "HighlightedText": "#{{ palette.text.hex }}",
+            {%- else -%}
+            "HighlightedText": "#{{ palette.base.hex }}",
+            {%- endif %}
             "HighlightedText-disabled": "#{{ palette.mantle.hex }}",
             "Link": "#{{ palette.rosewater.hex }}",
             "LinkVisited": "#{{ palette.blue.hex }}",
@@ -35,7 +40,7 @@ whiskers:
             "ToolTipBase": "#{{ palette.crust.hex }}",
             "ToolTipText": "#{{ palette.text.hex }}",
             "ToolTipText-disabled": "#{{ palette.text.hex }}",
-            "Window": "#{{ palette.mantle.hex }}",
+            "Window": "#{{ palette.crust.hex }}",
             "WindowText": "#{{ palette.text.hex }}",
             "WindowText-disabled": "#{{ palette.surface2.hex }}"
         },
