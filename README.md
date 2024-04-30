@@ -54,7 +54,7 @@
 - rsvg-convert
 2. Clone this repository and go to downloaded directory:
     ```
-    git clone https://github.com/42willow/calibre.git
+    git clone https://github.com/catppuccin/calibre.git
     cd calibre
     ```
 3. Run `make convert` to generate the icon set.
