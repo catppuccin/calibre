@@ -1,0 +1,33 @@
+name: Build icons
+
+on:
+  push:
+    branches: [main]
+    paths: ["icons/**"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert to PNGs
+        run: |
+          sh icons/svg_to_png.sh
+
+      - name: Zip each directory of flavored PNGs
+        run: |
+          sudo apt-get update
+          sudo apt-get install zip -y
+          cd icons/dist
+          for dir in */ ; do
+            zip -r "${dir%/}.zip" "$dir"
+          done
+          cd ../..
+
+      - name: Upload to release
+        run: gh release upload --clobber icons ./icons/dist/*.zip
+        env:
+          GH_TOKEN: ${{ github.token }}
