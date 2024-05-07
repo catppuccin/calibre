@@ -29,6 +29,6 @@ jobs:
           cd ../..
 
       - name: Upload to release
-        run: gh release upload --clobber icons ./icons/dist/*.zip
+        run: gh release upload --clobber icons-export ./icons/dist/*.zip
         env:
           GH_TOKEN: ${{ github.token }}
