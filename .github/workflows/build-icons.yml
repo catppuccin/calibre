@@ -16,7 +16,7 @@ jobs:
 
       - name: Convert to PNGs
         run: |
-          sh icons/svg_to_png.sh
+          bash icons/svg_to_png.sh
 
       - name: Zip each directory of flavored PNGs
         run: |
