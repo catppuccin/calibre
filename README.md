@@ -48,6 +48,10 @@
 
 ### Icons
 
+See instructions on the [GitHub release page](https://github.com/catppuccin/calibre/releases/tag/icons-export).
+
+#### From source
+
 1. Make sure you have the following dependencies installed:
 - git
 - make
@@ -60,9 +64,6 @@
 3. Run `make convert` to generate the icon set.
 4. Run `make install FLAVOR=<flavor>` to install the icon set.
 5. Restart Calibre!
-
-> [!NOTE]
-> Installation method for Windows coming soon, along with a method not requiring `rsvg-convert`.
 
 ## 💝 Thanks to
 
