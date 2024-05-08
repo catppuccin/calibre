@@ -3,7 +3,7 @@ name: Build icons
 on:
   push:
     branches: [main]
-    paths: ["icons/**"]
+    paths: ["icons/src/**"]
   workflow_dispatch:
 
 jobs:
