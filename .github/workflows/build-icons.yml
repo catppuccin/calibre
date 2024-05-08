@@ -16,7 +16,7 @@ jobs:
 
       - name: Convert to PNGs
         run: |
-          sudo apt-get-update
+          sudo apt-get update
           sudo apt-get install rsvg-convert -y
           bash icons/svg_to_png.sh
 
