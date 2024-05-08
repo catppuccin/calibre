@@ -56,11 +56,13 @@ See instructions on the [GitHub release page](https://github.com/catppuccin/cali
 - git
 - make
 - rsvg-convert
-2. Clone this repository and go to downloaded directory:
+2. Clone this repository and go to the downloaded directory:
+
     ```
     git clone https://github.com/catppuccin/calibre.git
     cd calibre
     ```
+
 3. Run `make convert` to generate the icon set.
 4. Run `make install FLAVOR=<flavor>` to install the icon set.
 5. Restart Calibre!
