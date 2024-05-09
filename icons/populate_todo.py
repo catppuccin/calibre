@@ -34,5 +34,5 @@ markdown_table = tabulate(data, headers="firstrow", tablefmt="pipe")
 print(markdown_table)
 
 # save to output directory
-with open("output.md", "w") as f:
+with open("TODO.md", "w") as f:
     f.write(markdown_table)
