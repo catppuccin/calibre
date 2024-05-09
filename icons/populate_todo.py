@@ -18,7 +18,7 @@ if response.status_code == 200:
             continue
         # print(file["name"])        
         data.append([
-            file["name"].rstrip(".svg"),
+            file["name"].replace(".svg", ""),
             f"<img src='https://raw.githubusercontent.com/kovidgoyal/calibre/master/imgsrc/{file["name"]}' width='100' alt='calibre'>",
             f"<img src='https://raw.githubusercontent.com/catppuccin/calibre/master/icons/src/latte/{file["name"]}' width='100' alt='latte'>",
             f"<img src='https://raw.githubusercontent.com/catppuccin/calibre/master/icons/src/frappe/{file["name"]}' width='100' alt='frappe'>",
