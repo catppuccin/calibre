@@ -20,15 +20,18 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install -r icons/requirements.txt
+        run: pip install -r requirements.txt
+        working-directory: icons
 
       - name: Run populate-icons.py
-        run: python icons/populate_todo.py
+        run: python populate_todo.py
+        working-directory: icons
       
       - name: Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add icons/TODO.md
+          git add TODO.md
           git commit -m "chore: update TODO.md"
           git push
+        working-directory: icons
