@@ -34,5 +34,3 @@ jobs:
         with:
           message: "chore: update TODO.md"
           default_author: github_actions
-          cwd: './icons/'
-          add: 'TODO.md'
